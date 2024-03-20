@@ -1,0 +1,80 @@
+<html>
+    <head>
+        <title>Codex</title>
+         <link href="formdesign.css" rel="stylesheet" type="text/css" />
+    </head>
+<body bgcolor="#002D62">  
+    
+<div class="form-style-10">
+    <center><h1>CodeX<span>Recruitment form!</span></h1></center>
+    <form action="InsertStudentFormDetailChecker" method="POST">
+    <div class="section"><span>1</span><b>Enrollment no. & Your name</b></div>
+    <div class="inner-wrap">
+        <label>Enrollment no. <input type="text" name="enrollment" placeholder="Enter your enrollment no." required/></label>
+        <label>Your Full Name <input type="text" name="name" placeholder="Enter your name" required /></label>
+    </div>
+
+    <div class="section"><span>2</span><b>Email & Contact Details</b></div>
+    <div class="inner-wrap">
+        <label>Email Address <input type="email" name="email" placeholder="Enter your email-id" required/></label>
+        <label>Contact Number <input type="text" name="contact" placeholder="Enter your contact number" required/></label>
+    </div>
+    
+    <div class="section"><span>3</span><b>Branch , Program & Department</b></div>
+        <div class="inner-wrap">
+        <label>Branch <input type="text" name="branch" placeholder="Enter your branch" required/></label>
+        <label>Program <input type="text" name="program" placeholder="Enter your program" required/></label>
+        <label>Department <input type="text" name="dept" placeholder="Enter your department" required/></label>
+    </div>
+    
+    <div class="section"><span>4</span><b>Choose your Year</b></div>
+        <div class="inner-wrap">
+        <label>1st Year <input type="radio" name="year" value="1st Year"/></label>
+        <label>2nd Year <input type="radio" name="year" value="2nd Year" /></label>
+        <label>3rd Year <input type="radio" name="year" value="3rd Year" /></label>
+        <label>4th Year <input type="radio" name="year" value="4th Year" /></label>
+    </div>
+    
+    <div class="section"><span>5</span><b>Choose your Section</b></div>
+        <div class="inner-wrap">
+        <label>A <input type="radio" name="sec" value="A"/></label>
+        <label>B <input type="radio" name="sec" value="B"/></label>
+        <label>C <input type="radio" name="sec" value="C"/></label>
+        <label>D <input type="radio" name="sec" value="D"/></label>
+        <label>E <input type="radio" name="sec" value="E"/></label>
+        <label>F <input type="radio" name="sec" value="F"/></label>
+        <label>G <input type="radio" name="sec" value="G"/></label>
+        <label>H <input type="radio" name="sec" value="H"/></label>
+        <label>I <input type="radio" name="sec" value="I"/></label>
+        <label>J <input type="radio" name="sec" value="J"/></label>
+        <label>K <input type="radio" name="sec" value="K"/></label>
+        <label>L <input type="radio" name="sec" value="L"/></label>
+        <label>M <input type="radio" name="sec" value="M"/></label>
+    </div>
+    
+    <div class="section"><span>6</span><b>Profile URL</b></div>
+        <div class="inner-wrap">
+        <label>LinkedIn profile URL <input type="text" name="linkedin" placeholder="Paste your linkedIn URL" required/></label>
+        <label>GitHub profile URL <input type="text" name="github" placeholder="Paste your GitHub URL" required/></label>
+    </div>
+    
+    <div class="section"><span>7</span><b>Why you want to be part of this club?</b></div>
+        <div class="inner-wrap">
+        <input type="text" name="brief" placeholder="Enter your words" required/>
+    </div>
+    
+    <div class="section"><span>8</span><b>If you have your project then for showcase you can upload on drive(Not Compulsory)</b></div>
+        <div class="inner-wrap">
+        <label>Drive URL link<input type="text" name="driveb" placeholder="Enter your drive URL" /></label>
+    </div>
+    
+    <div class="button-section">
+     <input type="submit" />
+     <span class="privacy-policy">
+     <input type="checkbox">You agree to our Terms and Policy. 
+     </span>
+    </div>
+</form>
+</div>
+</body>    
+</html>    
